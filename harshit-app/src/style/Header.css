@@ -1,0 +1,60 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    /* Adjust the logo size as needed */
+    height: 60px;
+    /* Adjust the logo size as needed */
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navigation {
+    font-size: 16px;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links a {
+    color: #fff;
+    /* Set your desired link color */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    font-size: 26px;
+}
+
+.nav-links a:hover {
+    color: #f0f0f0;
+    /* Set your desired link color on hover */
+}
